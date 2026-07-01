@@ -41,15 +41,23 @@
 
         // Called from VB.NET on each playback tick.
         function setMarker(lat, lon) {
+            var latlng = L.latLng(lat, lon);
+
             if (!marker) {
-                marker = L.circleMarker([lat, lon], {
+                marker = L.circleMarker(latlng, {
                     radius: 8,
                     color: '#c00',
                     fillColor: '#f33',
                     fillOpacity: 0.9
                 }).addTo(map);
             } else {
-                marker.setLatLng([lat, lon]);
+                marker.setLatLng(latlng);
+            }
+
+            // If the marker has drifted outside the visible area (e.g. user panned/zoomed
+            // away), gently pan back to it — but don't touch zoom level.
+            if (!map.getBounds().contains(latlng)) {
+                map.panTo(latlng);
             }
         }
     </script>
