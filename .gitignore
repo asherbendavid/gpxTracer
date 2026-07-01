@@ -482,3 +482,6 @@ FodyWeavers.xsd
 /.vs/GPX Tracer/FileContentIndex/209050e9-dfe5-445d-b786-f17af7128079.vsidx
 /.vs/GPX Tracer/v17/DocumentLayout.backup.json
 /.vs/GPX Tracer/v17/DocumentLayout.json
+/GPX Tracer/bin/Debug/GPX Tracer.xml
+/GPX Tracer/obj/Debug/GPX Tracer.vbproj.CoreCompileInputs.cache
+/GPX Tracer/obj/Debug/GPX Tracer.xml
