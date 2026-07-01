@@ -88,7 +88,9 @@ Public Class TracerForm
     Private Async Sub MainForm_Load(sender As Object, e As EventArgs)
         ' WebView2 must be initialized before any navigation or script execution.
         Await webView.EnsureCoreWebView2Async()
-        ' TODO: Navigate to the local Leaflet HTML file once it's added to the project.
+        ' Navigate to the local Leaflet HTML file once it's added to the project.
+        Dim htmlPath As String = Path.Combine(Application.StartupPath, "map.html")
+        webView.CoreWebView2.Navigate(New Uri(htmlPath).AbsoluteUri)
     End Sub
 
     Private Sub btnLoadGpx_Click(sender As Object, e As EventArgs) Handles btnLoadGpx.Click

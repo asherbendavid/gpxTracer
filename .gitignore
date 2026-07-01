@@ -420,6 +420,7 @@ FodyWeavers.xsd
 
 # Built Visual Studio Code Extensions
 *.vsix
+*.vsidx
 
 # Windows Installer files from build outputs
 *.cab
@@ -427,3 +428,57 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/.vs/GPX Tracer/v17/.suo
+/.vs/GPX Tracer/v17/Browse.VC.db
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/component_crx_cache/metadata.json
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Crashpad/settings.dat
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/DawnGraphiteCache/data_1
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/DawnWebGPUCache/data_1
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/EdgeSessions/SessionRestoreLog
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Extension State/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Extension State/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/GPUCache/data_1
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Local Storage/leveldb/000003.log
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Network/Network Persistent State
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Session Storage/000003.log
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Session Storage/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Session Storage/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/000003.log
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/000003.log
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/shared_proto_db/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOG
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOG.old
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/BrowsingTopicsState
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/DIPS
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/favorites_diagnostic.log
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/History
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Preferences
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Default/Secure Preferences
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/GrShaderCache/data_0
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/GrShaderCache/data_1
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/GrShaderCache/data_3
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/ShaderCache/data_1
+/GPX Tracer/bin/Debug/GPX Tracer.exe.WebView2/EBWebView/Local State
+/GPX Tracer/bin/Debug/GPX Tracer.exe
+/GPX Tracer/bin/Debug/GPX Tracer.pdb
+/GPX Tracer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/GPX Tracer/obj/Debug/GPX Tracer.vbproj.FileListAbsolute.txt
+/GPX Tracer/obj/Debug/GPX Tracer.exe
+/GPX Tracer/obj/Debug/GPX Tracer.pdb
+/GPX Tracer/obj/Debug/GPX Tracer.vbproj.AssemblyReference.cache
+/.vs/GPX Tracer/FileContentIndex/fc430788-118e-416e-92c3-5c0da8230c96.vsidx
+/.vs/GPX Tracer/FileContentIndex/ede95689-197a-4c85-a17b-85b313f8cb28.vsidx
+/.vs/GPX Tracer/FileContentIndex/c73dad0b-d6c5-4e0e-b06e-214aa946ef4d.vsidx
+/.vs/GPX Tracer/FileContentIndex/a473b2dd-f502-44f7-b368-325bdcfcb9df.vsidx
+/.vs/GPX Tracer/FileContentIndex/209050e9-dfe5-445d-b786-f17af7128079.vsidx
+/.vs/GPX Tracer/v17/DocumentLayout.backup.json
+/.vs/GPX Tracer/v17/DocumentLayout.json

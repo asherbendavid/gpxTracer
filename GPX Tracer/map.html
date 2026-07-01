@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>GPX Route Player Map</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <style>
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="leaflet/leaflet.js"></script>
+    <script>
+        // Default view before any route is loaded (roughly Western Cape).
+        var map = L.map('map').setView([-33.9, 18.6], 10);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        var routeLine = null;
+        var marker = null;
+
+        // Called from VB.NET when a GPX file is loaded.
+        // points: array of [lat, lon] pairs.
+        function setRoute(points) {
+            if (routeLine) {
+                map.removeLayer(routeLine);
+            }
+            routeLine = L.polyline(points, { color: 'blue', weight: 4 }).addTo(map);
+            map.fitBounds(routeLine.getBounds());
+        }
+
+        // Called from VB.NET on each playback tick.
+        function setMarker(lat, lon) {
+            if (!marker) {
+                marker = L.circleMarker([lat, lon], {
+                    radius: 8,
+                    color: '#c00',
+                    fillColor: '#f33',
+                    fillOpacity: 0.9
+                }).addTo(map);
+            } else {
+                marker.setLatLng([lat, lon]);
+            }
+        }
+    </script>
+</body>
+</html>
