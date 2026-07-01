@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-TracerForm",
+      "appliesTo": "GPX Tracer/TracerForm.vb",
+      "type": "launch"
+    }
+  ]
+}

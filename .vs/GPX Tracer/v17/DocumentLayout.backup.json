@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniy\u0027El\\source\\repos\\GPX Tracer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D57037B9-849D-4FAD-9AC7-CB40DC9F8260}|GPX Tracer\\GPX Tracer.vbproj|c:\\users\\daniy\u0027el\\source\\repos\\gpx tracer\\gpx tracer\\tracerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D57037B9-849D-4FAD-9AC7-CB40DC9F8260}|GPX Tracer\\GPX Tracer.vbproj|solutionrelative:gpx tracer\\tracerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TracerForm.vb",
+              "DocumentMoniker": "C:\\Users\\Daniy\u0027El\\source\\repos\\GPX Tracer\\GPX Tracer\\TracerForm.vb",
+              "RelativeDocumentMoniker": "GPX Tracer\\TracerForm.vb",
+              "ToolTip": "C:\\Users\\Daniy\u0027El\\source\\repos\\GPX Tracer\\GPX Tracer\\TracerForm.vb",
+              "RelativeToolTip": "GPX Tracer\\TracerForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-01T20:07:53.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
